@@ -1,0 +1,38 @@
+.task-form {
+  display: flex;
+  // flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+
+  input {
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    padding-left: 0.8rem;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1rem 0 0 1rem;
+    color: #21252b;
+
+    &::placeholder {
+      color: #626c80;
+    }
+  }
+
+  button {
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 1rem 1rem 0;
+    transition: ease-in;
+    transition-duration: 250ms;
+    height: 100%;
+
+    &:hover {
+      box-shadow: inset 0px 0px 12px 6px #21252b;
+    }
+  }
+}

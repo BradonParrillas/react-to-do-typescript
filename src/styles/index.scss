@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+button,
+input {
+  color: white;
+  background-color: #282c34;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  color: white;
+  background-color: #3f4652;
+}
